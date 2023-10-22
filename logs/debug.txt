@@ -1,0 +1,25 @@
+2023-10-22 15:49:29 INFO     Started.
+2023-10-22 15:49:30 INFO     Fine-tuning Epoch 0
+2023-10-22 15:49:35 INFO     Fine-tuning Epoch 1
+2023-10-22 15:49:40 INFO     Fine-tuning Epoch 2
+2023-10-22 15:49:44 INFO     Fine-tuning Epoch 3
+2023-10-22 15:49:49 INFO     Fine-tuning Epoch 4
+2023-10-22 15:49:54 INFO     Done.
+2023-10-22 15:56:06 INFO     Started.
+2023-10-22 15:56:07 INFO     Fine-tuning Epoch 0
+2023-10-22 15:56:12 INFO     Fine-tuning Epoch 1
+2023-10-22 15:56:16 INFO     Fine-tuning Epoch 2
+2023-10-22 15:56:21 INFO     Fine-tuning Epoch 3
+2023-10-22 15:56:25 INFO     Fine-tuning Epoch 4
+2023-10-22 15:56:30 INFO     Done.
+2023-10-22 21:17:34 INFO     Started.
+2023-10-22 21:17:35 INFO     Fine-tuning Epoch 0
+2023-10-22 21:18:10 INFO     Fine-tuning Epoch 1
+2023-10-22 21:18:45 INFO     Fine-tuning Epoch 2
+2023-10-22 21:19:19 INFO     Fine-tuning Epoch 3
+2023-10-22 21:19:54 INFO     Fine-tuning Epoch 4
+2023-10-22 21:20:29 INFO     Done.
+2023-10-22 21:20:31 INFO     Started.
+2023-10-22 21:20:32 INFO     Fine-tuning Epoch 0
+2023-10-22 21:21:02 INFO     Fine-tuning Epoch 1
+2023-10-22 21:21:31 INFO     Fine-tuning Epoch 2
