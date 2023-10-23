@@ -36,3 +36,5 @@ for cores in [2,4,8]:
                 detach=False,
                 volumes=volumes
             )
+
+            container.remove()
