@@ -1,5 +1,6 @@
 import docker
 import os
+from time import sleep
 
 client = docker.from_env()
 
@@ -11,7 +12,7 @@ log_file = "./logs/logz.txt"
 with open(log_file, "w") as f:
     f.write("cpus,batch_size,total_batches,no_params,epoch_no,duration\n")
 
-for cores in [2,4,8]:
+for cores in [8,4,2]:
     for batch_size in [32,64,128]:
         for model_no in [0,5,9]:
 
@@ -32,9 +33,10 @@ for cores in [2,4,8]:
                 name=container_name,
                 nano_cpus= cores*1000000000,
                 mem_limit="4g",
-                remove=True,  # Automatically remove the container when it stops
+                # remove=True,  # Automatically remove the container when it stops
                 detach=False,
-                volumes=volumes
+                volumes=volumes,
+                auto_remove = True,
             )
-
-            container.remove()
+            sleep(3)
+            # container.remove()
